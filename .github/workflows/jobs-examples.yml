@@ -1,0 +1,17 @@
+name: jobs examples
+
+on:
+  push:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step do Job1
+        run: echo Hello, world! Job1.
+        
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step do Job2
+        run: echo Hello, world! Job2.
